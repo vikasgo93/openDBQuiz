@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+
+}
+
+.container {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px !important;
+
+}
+
+.btn{
+	width: 200px;
+}
+
+h3 {
+	width: 100%;
+}
+
+#highScoresList {
+	margin-bottom :  4rem;
+}

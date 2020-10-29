@@ -1,0 +1,62 @@
+
+.container{
+    margin: 10% 10%;
+}
+.score, .score-text{
+    text-align: right;
+
+}
+
+.score-text {
+	color: #3279a8;
+}
+
+.rowClass {
+	border: 2px solid #3279a8;
+	margin-top:2px;
+}
+
+
+.option{
+    
+    text-align:center;
+    color:white;
+    background-color:#3279a8;
+}
+
+.option p{
+	padding: 2px;
+}
+
+.progress-bar{
+    background-color: #3279a8;
+}
+
+
+.incorrect {
+	background-color: #dc3545;
+}
+
+.correct {
+	background-color: #28a745;
+}
+
+#loader {
+	border: 1.6rem solid lightblue;
+	border-radius: 50%;
+	border-top: 1.6rem solid #56a5eb;
+	width: 12rem;
+	height: 12rem;
+	margin: 10% 10%;
+	animation: spin 2s linear infinite;
+
+}
+
+@keyframes spin {
+	0% {
+		transform:  rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
